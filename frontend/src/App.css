@@ -1,0 +1,122 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  background:#f1f1f1;
+  font-family: sans-serif;
+ 
+
+}
+
+.App {
+  text-align: center;
+}
+
+
+
+/*
+////////////////////////////////
+PARTIE HEADER !
+////////////////////////////////
+*/
+
+.divNav {
+  width: 100%;
+  background-color:#6441a4;
+  height:50px;
+  position:fixed;
+  z-index: 1000;
+
+}
+
+.menu {
+  display:flex;
+  height:50px;
+  align-items: center;
+  width:100%
+}
+
+.liensNav {
+  list-style-type: none;
+  padding: 0px 20px;
+}
+
+.liensNav:nth-child(4){
+  margin: 0 auto;
+  flex-shrink: 1;
+  width: 600px;
+}
+
+.logo {
+  margin-top: 5px;
+}
+
+.formSubmit {
+  display: flex;
+  flex-shrink: 1;
+}
+
+
+.inputRecherche {
+  width: 50%;
+  margin:3px 0px;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+}
+
+.loupe {
+  width:5%;
+  margin: 3px 0px;
+  border: 3px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.loupeLogo{
+  margin:2px 2px;
+  padding-right: 1px;
+}
+
+.boutonMenu{
+ position: fixed;
+ top: 5px;
+ right:20px;
+ cursor: pointer;
+
+}
+
+
+/*
+////////////////////////////////
+PARTIE SIDEBAR !
+////////////////////////////////
+*/
+
+.sidebar {
+  position: fixed;
+  top: 50px;
+  width: 239px;
+  height: 100vh;
+  background-color: #19191c;
+}
+
+.sidebarTitre {
+  padding-top: 30px;
+  padding-left: 20px;
+  color:#efebf5;
+  font-size:15px;
+  font-weight: 500;
+
+}
+
+.listStream {
+  padding : 0px 0px 0px 10px;
+  color:#efebf5;
+}
